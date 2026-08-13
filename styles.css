@@ -485,3 +485,53 @@ h2{font-size:clamp(34px,4vw,54px);line-height:1.08;letter-spacing:-2px}
     }
 
 }
+
+/* ==========================================
+   CONFIRMACIÓN DE ENVÍO DEL FORMULARIO
+========================================== */
+
+.form-message.success {
+    display: block;
+    margin-top: 25px;
+    padding: 22px;
+    border: 1px solid #a7f3d0;
+    border-radius: 12px;
+    background: #ecfdf5;
+    color: #065f46;
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.08);
+}
+
+.success-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.success-content > i {
+    flex-shrink: 0;
+    margin-top: 3px;
+    font-size: 1.7rem;
+    color: #059669;
+}
+
+.success-content strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.05rem;
+}
+
+.success-content p {
+    margin: 0;
+    line-height: 1.6;
+    color: #047857;
+}
+
+@media (max-width: 600px) {
+    .success-content {
+        gap: 12px;
+    }
+
+    .success-content > i {
+        font-size: 1.4rem;
+    }
+}
