@@ -1,4 +1,4 @@
-# JMP IT Consulting - sitio web HTML5
+# Rayomi Enterprise Group - sitio web HTML5
 
 ## Estructura
 - index.html: estructura semántica HTML5.
