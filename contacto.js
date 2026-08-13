@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // ==========================================
 
     const menuToggle = document.getElementById("menuToggle");
-    const navMenu = document.getElementById("navMenu");
+    //const navMenu = document.getElementById("navMenu");
+    const navMenu = document.getElementById("mainNav");
 
     if (menuToggle && navMenu) {
 
