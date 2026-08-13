@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contáctenos | Rayomi Enterprise Group</title>
+
+    <meta name="description"
+        content="Contáctenos para conocer nuestros servicios de desarrollo de software, bases de datos, chatbots, QA y soluciones tecnológicas.">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+    <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand" aria-label="Rayomi Enterprise Grop">
+        <!--<span class="brand-mark"><i class="fa-solid fa-cloud"></i></span>--!>
+		<img src="imagenes/logoRayomi.png" width="120px">
+        <span>Rayomi <strong>Enterprise</strong><small>Group</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="mainNav">
+        <a href="#servicios">Servicios</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#metodologia">Metodología</a>
+        <!--<a href="#contacto" class="nav-cta">Hablemos <i class="fa-solid fa-arrow-right"></i></a>--!>
+		<a href="contacto.html">Contáctenos</a>
+      </nav>
+    </div>
+  </header>
+
+
+    <!-- =========================
+         HERO CONTACTO
+    ========================== -->
+    <section class="contact-hero">
+
+        <div class="container">
+
+            <div class="contact-hero-content">
+
+                <span class="section-tag">
+                    <i class="fa-solid fa-comments"></i>
+                    CONTACTO
+                </span>
+
+                <h1>
+                    Hablemos de tu
+                    <span>próximo proyecto</span>
+                </h1>
+
+                <p>
+                    Cuéntanos sobre tus necesidades tecnológicas.
+                    Nuestro equipo estará encantado de ayudarte a
+                    encontrar la solución adecuada para tu empresa.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FORMULARIO
+    ========================== -->
+    <section class="contact-section">
+
+        <div class="container contact-grid">
+
+
+            <!-- INFORMACIÓN -->
+            <div class="contact-info">
+
+                <span class="section-tag">
+                    ¿EN QUÉ PODEMOS AYUDARTE?
+                </span>
+
+                <h2>
+                    Conversemos sobre
+                    <span>tecnología</span>
+                </h2>
+
+                <p>
+                    En Rayomi Enterprise Group desarrollamos soluciones
+                    tecnológicas orientadas a mejorar los procesos,
+                    productividad y transformación digital de las
+                    organizaciones.
+                </p>
+
+
+                <div class="contact-info-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+
+                    <div>
+                        <h3>Correo electrónico</h3>
+
+                        <a href="mailto:rayomienterprise@gmail.com">
+                            rayomienterprise@gmail.com
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-info-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <div>
+                        <h3>Servicios tecnológicos</h3>
+
+                        <p>
+                            Desarrollo de software,
+                            QA, bases de datos, chatbots
+                            y transformación digital.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-info-item">
+
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+
+                    <div>
+                        <h3>Atención personalizada</h3>
+
+                        <p>
+                            Analizamos tus necesidades y
+                            proponemos soluciones adaptadas
+                            a tu organización.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORMULARIO -->
+            <div class="contact-form-container">
+
+                <div class="form-header">
+
+                    <h2>Contáctenos</h2>
+
+                    <p>
+                        Completa el siguiente formulario y
+                        nos pondremos en contacto contigo.
+                    </p>
+
+                    <span class="required-info">
+                        * Todos los campos son obligatorios
+                    </span>
+
+                </div>
+
+
+                <!--
+                    FORMSubmit permite enviar el formulario
+                    directamente al correo indicado.
+                -->
+                <form id="contactForm" action="https://formsubmit.co/rayomienterprise@gmail.com" method="POST">
+
+
+                    <!-- CONFIGURACIÓN FORMSUBMIT -->
+
+                    <input type="hidden" name="_subject" value="Nuevo contacto desde Rayomi Enterprise Group">
+
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="hidden" name="_template" value="table">
+                    <!--value="https://TU-DOMINIO.com/contacto.html?enviado=1">-->
+                    <input type="hidden" name="_next"
+                        value="D:\CURRI\Curri_2025\Gaby\Pagina\RayomiEnterpriseGroup/contacto.html?enviado=1">
+
+                    <!-- NOMBRE -->
+
+                    <div class="form-group">
+
+                        <label for="nombre">
+                            Nombre *
+                        </label>
+
+                        <input type="text" id="nombre" name="Nombre" placeholder="Ingrese su nombre" required>
+
+                    </div>
+
+
+                    <!-- APELLIDO -->
+
+                    <div class="form-group">
+
+                        <label for="apellido">
+                            Apellido *
+                        </label>
+
+                        <input type="text" id="apellido" name="Apellido" placeholder="Ingrese su apellido" required>
+
+                    </div>
+
+
+                    <!-- EMPRESA -->
+
+                    <div class="form-group">
+
+                        <label for="empresa">
+                            Empresa
+                        </label>
+
+                        <input type="text" id="empresa" name="Empresa" placeholder="Nombre de su empresa">
+
+                    </div>
+
+
+                    <!-- CORREO -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Correo electrónico *
+                        </label>
+
+                        <input type="email" id="email" name="Correo" placeholder="ejemplo@empresa.com" required>
+
+                    </div>
+
+
+                    <!-- TELÉFONO -->
+
+                    <div class="form-group">
+
+                        <label for="telefono">
+                            Teléfono
+                        </label>
+
+                        <input type="tel" id="telefono" name="Telefono" placeholder="+51 999 999 999">
+
+                    </div>
+
+
+                    <!-- SERVICIO -->
+
+                    <div class="form-group">
+
+                        <label for="servicio">
+                            Servicio de interés *
+                        </label>
+
+                        <select id="servicio" name="Servicio" required>
+
+                            <option value="">
+                                Seleccione una opción
+                            </option>
+
+                            <option value="Desarrollo de Software">
+                                Desarrollo de Software
+                            </option>
+
+                            <option value="Aseguramiento y Control de Calidad">
+                                Aseguramiento y Control de Calidad
+                            </option>
+
+                            <option value="Bases de Datos">
+                                Bases de Datos
+                            </option>
+
+                            <option value="Chatbots e Inteligencia Artificial">
+                                Chatbots e Inteligencia Artificial
+                            </option>
+
+                            <option value="Transformación Digital">
+                                Transformación Digital
+                            </option>
+
+                            <option value="Consultoría TI">
+                                Consultoría TI
+                            </option>
+
+                            <option value="Otro">
+                                Otro
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MENSAJE -->
+
+                    <div class="form-group">
+
+                        <label for="mensaje">
+                            Mensaje *
+                        </label>
+
+                        <textarea id="mensaje" name="Mensaje" rows="6"
+                            placeholder="Cuéntanos sobre tu proyecto o necesidad..." required></textarea>
+
+                    </div>
+
+
+                    <!-- CONSENTIMIENTO -->
+
+                    <div class="form-checkbox">
+
+                        <input type="checkbox" id="consentimiento" name="Consentimiento" value="Aceptado" required>
+
+                        <label for="consentimiento">
+
+                            Acepto que Rayomi Enterprise Group utilice
+                            mis datos para responder a mi solicitud
+                            de contacto.
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- BOTÓN -->
+
+                    <button type="submit" class="btn btn-primary btn-submit">
+
+                        <span>
+                            Enviar mensaje
+                        </span>
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+
+                    <!-- MENSAJE DE PROCESAMIENTO -->
+
+                    <div id="formMessage" class="form-message">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div>
+                    <div class="logo"><img src="imagenes/logoRayomi.png" width="120px">
+                        <span class="logo-jmp">RAYOMI</span>
+                        <span class="logo-text">ENTERPRISE GROUP</span>
+                    </div>
+
+                    <p>
+                        Soluciones tecnológicas para impulsar
+                        la transformación digital de tu empresa.
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <h3>Contacto</h3>
+
+                    <a href="mailto:rayomienterprise@gmail.com">
+                        rayomienterprise@gmail.com
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 Rayomi Enterprise Group. Todos los derechos reservados.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/contacto.js"></script>
+
+</body>
+
+</html>

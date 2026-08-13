@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rayomi Enterprise Grop - Desarrollo de software, QA, cloud, auditoría y consultoría tecnológica.">
+  <title>Rayomi Enterprise Group | Tecnología que impulsa tu negocio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fa-solid fa-location-dot"></i> Lima, Perú</span>
+      <span><i class="fa-solid fa-envelope"></i> contacto@rayomienterprise@gmail.com</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#inicio" class="brand" aria-label="Rayomi Enterprise Grop">
+        <!--<span class="brand-mark"><i class="fa-solid fa-cloud"></i></span>--!>
+		<img src="imagenes/logoRayomi.png" width="120px">
+        <span>Rayomi <strong>Enterprise</strong><small>Group</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav id="mainNav">
+        <a href="#servicios">Servicios</a>
+        <a href="#soluciones">Soluciones</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#metodologia">Metodología</a>
+        <!--<a href="#contacto" class="nav-cta">Hablemos <i class="fa-solid fa-arrow-right"></i></a>--!>
+		<a href="contacto.html">Contáctenos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+
+    <section class="hero">
+      <div class="hero-slider" id="heroSlider">
+
+        <article class="hero-slide active" style="--bg:url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=2000&q=85')">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <span class="eyebrow">TECNOLOGÍA · INNOVACIÓN · RESULTADOS</span>
+              <h1>Transformamos ideas en <span>soluciones digitales</span>.</h1>
+              <p>Desarrollamos tecnología confiable para que tu organización evolucione, automatice procesos y genere mayor valor.</p>
+              <div class="hero-actions">
+                <a href="#contacto" class="btn btn-primary">Conversemos <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" style="--bg:url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=85')">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <span class="eyebrow">SOFTWARE · CLOUD · DATA</span>
+              <h1>Ingeniería tecnológica para <span>un mundo conectado</span>.</h1>
+              <p>Desde aplicaciones empresariales hasta infraestructura cloud y plataformas de datos.</p>
+              <div class="hero-actions">
+                <a href="#soluciones" class="btn btn-primary">Explorar soluciones <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero-slide" style="--bg:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=2000&q=85')">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content">
+            <div class="hero-copy">
+              <span class="eyebrow">CALIDAD · CONTROL · SEGURIDAD</span>
+              <h1>Más calidad. Menos riesgo. <span>Mejores resultados.</span></h1>
+              <p>Integramos QA, control de calidad, auditoría de sistemas y buenas prácticas para elevar la confiabilidad.</p>
+              <div class="hero-actions">
+                <a href="#contacto" class="btn btn-primary">Solicitar asesoría <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="slider-controls">
+          <button id="prevSlide" aria-label="Anterior"><i class="fa-solid fa-arrow-left"></i></button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button id="nextSlide" aria-label="Siguiente"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div>
+          <span class="section-kicker">TU SOCIO TECNOLÓGICO</span>
+          <h2>La tecnología debe <span>resolver problemas</span>, no crear más.</h2>
+        </div>
+        <div>
+          <p class="lead">Acompañamos a empresas en sus desafíos tecnológicos con servicios especializados de desarrollo, calidad, consultoría, cloud, auditoría y tercerización.</p>
+          <a href="#nosotros" class="text-link">Conoce nuestro enfoque <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section section-dark" id="servicios">
+      <div class="container">
+        <div class="section-heading light">
+          <div>
+            <span class="section-kicker">NUESTROS SERVICIOS</span>
+            <h2>Capacidades para <span>acelerar tu negocio</span></h2>
+          </div>
+          <p>Soluciones flexibles, escalables y orientadas a resultados.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+            <span>01</span>
+            <h3>Desarrollo de software</h3>
+            <p>Aplicaciones web, APIs, Páginas Web, Sistemas empresariales y modernización de plataformas.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+            <span>02</span>
+            <h3>Aseguramiento y control de calidad</h3>
+            <p>QA, pruebas funcionales, automatización, rendimiento y control de calidad.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-cloud"></i></div>
+            <span>03</span>
+            <h3>Cloud & DevOps</h3>
+            <p>Arquitectura, migración, optimización, CI/CD, observabilidad y operación cloud.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+            <span>04</span>
+            <h3>Consultoría de sistemas</h3>
+            <p>Arquitectura, bases de datos, integración, gobierno tecnológico y transformación.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <span>05</span>
+            <h3>Auditoría de sistemas</h3>
+            <p>Evaluación de controles, procesos, riesgos tecnológicos y cumplimiento.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-people-group"></i></div>
+            <span>06</span>
+            <h3>Tercerización TI</h3>
+            <p>Equipos especializados para complementar y fortalecer tus capacidades internas.</p>
+            <a href="#contacto">Conocer más <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="solutions section" id="soluciones">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">TECNOLOGÍAS Y SOLUCIONES</span>
+            <h2>Construimos soluciones <span>de extremo a extremo</span></h2>
+          </div>
+          <p>Combinamos ingeniería, automatización, datos e inteligencia artificial.</p>
+        </div>
+
+        <div class="solution-carousel" id="solutionCarousel">
+          <article class="solution-card">
+            <div class="solution-image" style="background-image:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="solution-body">
+              <span>SOFTWARE ENGINEERING</span>
+              <h3>Desarrollo de aplicaciones</h3>
+              <p>Productos digitales modernos, APIs, microservicios y sistemas empresariales.</p>
+            </div>
+          </article>
+
+          <article class="solution-card">
+            <div class="solution-image" style="background-image:url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="solution-body">
+              <span>DATA & DATABASE</span>
+              <h3>Datos y bases de datos</h3>
+              <p>Diseño, optimización, integración y modernización de plataformas de datos.</p>
+            </div>
+          </article>
+
+          <article class="solution-card">
+            <div class="solution-image" style="background-image:url('https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="solution-body">
+              <span>AI & AUTOMATION</span>
+              <h3>Chatbots e IA</h3>
+              <p>Automatización inteligente, asistentes virtuales y experiencias digitales.</p>
+            </div>
+          </article>
+
+          <article class="solution-card">
+            <div class="solution-image" style="background-image:url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=1200&q=80')"></div>
+            <div class="solution-body">
+              <span>QUALITY ENGINEERING</span>
+              <h3>Calidad de software</h3>
+              <p>Pruebas automatizadas y estrategias QA para reducir defectos y riesgos.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-arrows">
+          <button id="solutionPrev" aria-label="Anterior"><i class="fa-solid fa-arrow-left"></i></button>
+          <button id="solutionNext" aria-label="Siguiente"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-banner" id="nosotros">
+      <div class="feature-bg"></div>
+      <div class="container feature-content">
+        <span class="section-kicker">POR QUÉ Rayomi Enterprise</span>
+        <h2>Experiencia tecnológica con una mirada <span>orientada al negocio.</span></h2>
+        <p>Entendemos que cada organización tiene desafíos diferentes. Por eso diseñamos servicios que se adaptan a tus procesos, objetivos y nivel de madurez tecnológica.</p>
+        <div class="stats">
+          <div><strong>360°</strong><span>Visión tecnológica</span></div>
+          <div><strong>24/7</strong><span>Continuidad y soporte</span></div>
+          <div><strong>100%</strong><span>Orientación a resultados</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process section" id="metodologia">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-kicker">NUESTRA METODOLOGÍA</span>
+          <h2>De la necesidad al <span>resultado</span></h2>
+          <p>Un proceso simple, transparente y medible.</p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-item">
+            <div class="process-number">01</div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>Entendemos</h3>
+            <p>Analizamos el contexto, los objetivos y los desafíos.</p>
+          </div>
+          <div class="process-item">
+            <div class="process-number">02</div>
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Diseñamos</h3>
+            <p>Proponemos una solución tecnológica alineada al negocio.</p>
+          </div>
+          <div class="process-item">
+            <div class="process-number">03</div>
+            <i class="fa-solid fa-gears"></i>
+            <h3>Implementamos</h3>
+            <p>Construimos, integramos y validamos con buenas prácticas.</p>
+          </div>
+          <div class="process-item">
+            <div class="process-number">04</div>
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Mejoramos</h3>
+            <p>Medimos resultados y buscamos oportunidades de mejora continua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" id="contacto">
+      <div class="container cta-inner">
+        <div>
+          <span class="section-kicker">¿TIENES UN PROYECTO?</span>
+          <h2>Hablemos de cómo la tecnología puede <span>impulsarlo.</span></h2>
+        </div>
+        <!--<a href="mailto:rayomienterprise@gmail.com" class="btn btn-light">Contactar ahora <i class="fa-solid fa-arrow-right"></i></a>-->
+		<a href="contacto.html" class="btn btn-light">Contactar ahora<i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#inicio" class="brand footer-brand">
+          <!--<span class="brand-mark"><i class="fa-solid fa-cloud"></i></span>!-->
+		  <img src="imagenes/logoRayomi.png" width="120px">
+          <span>Rayomi <strong>Enterprise</strong><small>Group</small></span>
+        </a>
+        <p>Tecnología que transforma. Soluciones que generan valor.</p>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#servicios">Desarrollo de software</a>
+        <a href="#servicios">QA y control de calidad</a>
+        <a href="#servicios">Cloud & DevOps</a>
+        <a href="#servicios">Auditoría de sistemas</a>
+      </div>
+      <div>
+        <h4>Empresa</h4>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#metodologia">Metodología</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div>
+        <h4>Conversemos</h4>
+        <a href="mailto:contacto@rayomienterprise@gmail.com">contacto@rayomienterprise@gmail.com</a>
+        <span>Lima, Perú</span>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright">
+      <span>© <span id="year"></span> Rayomi Enterprise Group. Todos los derechos reservados.</span>
+      <span>Diseño tecnológico orientado al futuro.</span>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
